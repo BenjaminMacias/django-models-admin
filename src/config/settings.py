@@ -38,6 +38,7 @@ LOGIN_URL = "/admin/login/"
 INSTALLED_APPS = [
     "pages.apps.PagesConfig",
     "ecommerce.apps.EcommerceConfig",  #<----- agregar app
+    "base.apps.BaseConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
